@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/seriealogo.png" type="png" size=20px>
+    <link rel="stylesheet" href="Style.css">
+    <title>Opinion</title>
+  </head>
+  <body>
+
+  <!-- Aquí creamos nuestra barra de navegación con las distintas pestañas (enlaces) de nuestra pagina -->
+  <div class="header">
+    <img href="#default" class="logo" src="img/seriealogo.png">
+    <div class="header-right">
+    <a class="active" href="index.html">Inicio</a>
+    <a href="galardonados.html">Galardonados</a>
+    <a href="datos.html">Datos</a>
+    <a href="noticias.html">Ultimas Noticias</a>
+  </div>
+</div>
+
+<!-- Aquí creamos una pequeña form con un formulario feedback para que el usuario de su opinion de la pagina -->
+  <section class="box">
+    <h1><span>Tienes alguna opinion o aporte? </span> Dejanosla saber aqui!</h1>
+  </section>
+    
+
+    <div>
+      <form id="postUsuario">
+        
+        <div class="box2">
+        <label for="NombrePost">Nombre</label>
+        <input type="text" name="NombrePost" id="nombre"  placeholder="Escribe tu nombre" />
+        </div>
+
+        <div class="box2">
+        <label for="ApellidoPost">Apellido</label>
+        <input type="text" name="ApellidoPost" id="apellido"  placeholder="Escribe tu apellido" />
+        </div>
+
+        <div class="box2">
+        <label for="EmailPost">Email</label>
+        <input type="text" name="EmailPost" id="email"  placeholder="Escribe tu email" />
+        </div>
+
+        <div class="box2">
+        <label for="AsuntoPost">Asunto</label>
+        <input type="text" name="AsuntoPost" id="asunto"  placeholder="Escribe tu asunto" />
+        </div>
+
+        <div class="box2">
+        <label for="MensajePost">Mensaje</label>
+        <input type="text" name="MensajePost" id="mensaje"  placeholder="Describe brevemente en menos de 500 carácteres"/>
+       </div>
+
+        <input type="submit" value="Enviar" />
+      </form>
+      <p class="text grid2" id="textoPost">Info Usuario</p>
+    </div>
+
+    <script src="index.js"></script>
+
+    <hr size="5px" color="white" />
+      <!-- Aquí definimos un <footer> que es un pie de pagina con los datos del autor -->
+      <footer><p>Juan Alvarez 30.258.972 Universidad Valle del Momboy</p></footer>
+  </body>
+</html>
